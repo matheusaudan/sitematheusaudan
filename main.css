@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+header {
+    padding: 0px 0;
+    margin-top: 0;
+    margin-left: 20px;
+}
+
+header img {
+    display: flex;
+    width: 190px;
+    padding: 0 0;
+    margin: 20px 0;
+    margin-left: 80px;
+}
+
+header nav li {
+    margin-left: 100px;
+    display: inline;
+
+}
+
+header nav li a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+    font-family: "Anton", sans-serif;
+    font-size: 25px;
+    font-weight: 900px;
+    font-style: normal;
+}
+
+header .container,
+section .container {
+    display:flex;
+    align-items:center ;
+    justify-content: space-between ;
+}
+.container {
+    width: 100%;
+    margin:0 0;
+    margin-top: 8px;
+    margin-bottom: 8px
+} 
+
+
+section .container {
+    align-items: flex;
+    margin: 20px 0;
+}
+
+section p {
+    display: block;
+    padding: 24px 0;
+    width: 100%;
+    align-items: flex-start;
+    font-family: "Assistant", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style:normal;
+}
+
+.container h2 {
+    box-sizing: center;
+    padding: 0 0;
+    font-family: "Anton", sans-serif;
+    font-size: 45px;
+    font-weight: 900px;
+    font-style: normal;
+}
+
+
+.front-pic {
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-methods {
+    display:inline;
+    justify-content:space-between;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+header .container h2,
+section .container h2 {
+    margin-left: 45px;
+    padding: 24px 20px;
+    
+}
+
+#about .container {
+    padding: 20px;
+
+}
+
+#about .container img{
+    padding-left: 10px;
+    
+}
+
+#composicao .container ul{
+    display: flex;
+
+}
+
+#composicao .container {
+    background-color: black;
+    color: aliceblue;
+}
+
+.composicaofoto ,
+.about {
+    width: 400px;
+}
+
+
+.social-media li {
+    display: inline;
+    margin: 8px;
+}
+
+.social-media li a,
+.musicas li a {
+    text-decoration: none;
+}
+
+section .container a {
+    display: inline;
+    text-decoration:none ;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+section .composicao h2 {
+    margin-right: 400px;
+}
+
+section p{
+    margin-bottom: 8px;
+    padding-left: 30px;
+    align-items: center;
+}
+
+form input,
+form textarea,
+form button {
+    display: flex;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+#contact .container {
+    display: flex;
+    padding: 20px 0;
+}
+
+
+.social-media img {
+    height: 24px;
+    display: inline;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.contact-methods {
+    justify-content: space-between;
+}
+
+form {
+    padding: 20px 0;
+}
+
+.contact .social-media img {
+    width: 100%;
+}
+
